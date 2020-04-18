@@ -19,10 +19,10 @@ namespace PointOfSell
         public static int _UserID;
         public static int _FormloginId;
         ////error//// public string st = @"Data Source=DESKTOP-1L06L5P,1433;Initial Catalog=NewAArmayData;User ID=islam; Password=123456;";
-        // public string st = @"Data Source=DESKTOP-5B4LUT6;Initial Catalog=PointOfSale;Persist Security Info=True;User ID=Goava;Password=01426;";
+       //  public string st = @"Data Source=DESKTOP-5B4LUT6;Initial Catalog=PointOfSale;Persist Security Info=True;User ID=Goava;Password=01426;";
         //public string st = @"Data Source=DESKTOP-0D70RQ3;Initial Catalog=FinalWesalTest;Integrated Security=True";
         //  public string st = @"Data Source=USER-PC\SQL2014;Initial Catalog=CustomerData;Integrated Security=True";
-        public string st = System.IO.File.ReadAllText(@"DBConnection.txt");
+       public string st = System.IO.File.ReadAllText(@"DBConnection.txt");
 
 
         public void InsertData(string Sql)

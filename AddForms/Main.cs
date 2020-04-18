@@ -436,7 +436,7 @@ namespace PointOfSell
             if (dt.Rows.Count > 0)
             {
 
-                accordionControlElement1.Visible = true;
+                AdditionTab.Visible = true;
                 accordionControlElement6.Visible = true;
                 accordionControlElement9.Visible = true;
                 accordionControlElement16.Visible = true;
